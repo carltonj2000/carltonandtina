@@ -34,20 +34,8 @@ export default props => (
           </tr>
           <tr>
             <td>Cheryl &amp; Wendy</td>
-            <td>Table Flowers, Name Tags &amp; Gift Box</td>
-          </tr>
-          <tr>
-            <td>Kevin</td>
-            <td>Video</td>
-          </tr>
-          <tr>
-            <td>Alex</td>
-            <td>Facebook Live</td>
-          </tr>
-          <tr>
-            <td>Bubbles</td>
             <td>
-              Sabrina, Eli, Nguyen - manual<br />Paulyne, Cyril - machine
+              Table Flowers, Name Tags, Buzz Buttons, Taquila &amp; Gift Box
             </td>
           </tr>
           <tr>
@@ -59,6 +47,22 @@ export default props => (
             <td>
               Tina &amp; Carlton, Jeff & Deanna, Anh &amp; Paulyne, Cyril &amp;
               Joyce
+            </td>
+          </tr>
+          <tr>
+            <td>Ceremony Exit Bubbles</td>
+            <td>
+              Sabrina, Eli, Nguyen - manual<br />Paulyne, Cyril - machine
+            </td>
+          </tr>
+          <tr>
+            <td>Ceremony Media</td>
+            <td>
+              Alex - Video Tina's Camera with 24mm<br />
+              Bobby - Facebook Live<br />
+              Corey - His Camera<br />
+              Kevin - Video <br />
+              Todd - Carlton's Camera with 85mm<br />
             </td>
           </tr>
         </tbody>
