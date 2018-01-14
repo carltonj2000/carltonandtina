@@ -1,0 +1,28 @@
+{
+  "name": "carltonandtina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "link": "node scripts/lnImages.js",
+    "imgOpt": "node scripts/imgOptimize.js",
+    "rsync":
+      "rsync -avzL out/ carltonjoseph.com:/mnt/volume-sfo2-01/cj/tinaandcarltondotcom/",
+    "toserver": "run-s build export rsync"
+  },
+  "keywords": [],
+  "author": "Carlton Joseph",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2"
+  }
+}

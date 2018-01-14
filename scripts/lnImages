@@ -1,0 +1,25 @@
+#!/bin/bash
+srcDir1=/home/carltonj2000/cj/cj_pics/pics2017/tina/tina10invites/resized/size_1920x1280px/
+dstDir1=/static/
+srcDir2=/home/carltonj2000/cj/cj_pics/pics2017/tina/tina10invites/resized/size_405x270px/
+dstDir2=/static/small/
+srcDir=${srcDir2}
+dstDir=${dstDir2}
+ln -s ${srcDir}HDR9680.png ..${dstDir}
+ln -s ${srcDir}HDR9704.png ..${srcDir}
+ln -s ${srcDir}IMG_5376.JPG ..${srcDir}
+ln -s ${srcDir}IMG_5391.JPG ..${srcDir}
+ln -s ${srcDir}IMG_5518.JPG ..${srcDir}
+ln -s ${srcDir}IMG_5524.JPG ..${srcDir}
+ln -s ${srcDir}IMG_5605.JPG ..${srcDir}
+ln -s ${srcDir}IMG_5748.JPG ..${srcDir}
+ln -s ${srcDir}IMG_8558.JPG ..${srcDir}
+ln -s ${srcDir}IMG_8998.JPG ..${srcDir}
+ln -s ${srcDir}IMG_9027.JPG ..${srcDir}
+ln -s ${srcDir}IMG_9057.JPG ..${srcDir}
+ln -s ${srcDir}IMG_9219.JPG ..${srcDir}
+ln -s ${srcDir}IMG_9468-crop.JPG ..${srcDir}
+ln -s ${srcDir}IMG_9468.JPG ..${srcDir}
+ln -s ${srcDir}IMG_9483.JPG ..${srcDir}
+ln -s ${srcDir}IMG_9557.JPG ..${srcDir}
+ln -s ${srcDir}IMG_9563.JPG ..${srcDir}
