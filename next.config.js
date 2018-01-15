@@ -4,7 +4,10 @@ module.exports = {
       "/": { page: "/" },
       "/directions": { page: "/directions" },
       "/schedule": { page: "/schedule" },
-      "/seating": { page: "/seating" }
+      "/seating": { page: "/seating" },
+      "/cars": { page: "/cars" },
+      "/support": { page: "/support" },
+      "/home": { page: "/home" }
     };
   }
 };

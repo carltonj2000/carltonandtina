@@ -15,11 +15,11 @@ export default props => (
           </tr>
           <tr>
             <td>Jeffrey</td>
-            <td>Rings - Best Man</td>
+            <td>Rings, Marriage Licence, Best Man</td>
           </tr>
           <tr>
             <td>Sabrina</td>
-            <td>Flower Gril</td>
+            <td>Flower Girl</td>
           </tr>
           <tr>
             <td>Debbie &amp; Alex</td>

@@ -43,27 +43,34 @@ export default props => (
           </td>
         </tr>
         <tr>
-          <td>2:00 PM</td>
-          <td>Lake - Family Photos</td>
+          <td>1:45 PM</td>
+          <td>
+            <a href="https://goo.gl/maps/Nv6sCSpg1312">Mountain Lake Park</a> -
+            Break spot if needed.
+          </td>
         </tr>
         <tr>
           <td>2:30 PM</td>
+          <td>Lake - Family Photos</td>
+        </tr>
+        <tr>
+          <td>3:00 PM</td>
           <td>Lake - Tina &amp; Carlton's Photos</td>
         </tr>
         <tr>
-          <td>3:30 PM</td>
+          <td>4:00 PM</td>
           <td>Mimi's - Group Photos</td>
         </tr>
         <tr>
-          <td>4:00 PM</td>
+          <td>4:30 PM</td>
           <td>Mimi's - Dinner Start</td>
         </tr>
         <tr>
-          <td>6:00 PM</td>
+          <td>6:30 PM</td>
           <td>Mimi's - Dinner End</td>
         </tr>
         <tr>
-          <td>7:00 PM</td>
+          <td>8:00 PM</td>
           <td>Drinks - Tina &amp; Carlton's Home</td>
         </tr>
       </table>

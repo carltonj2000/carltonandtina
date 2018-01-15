@@ -41,19 +41,19 @@ export default props => (
           </tr>
           <tr>
             <td>Debbie</td>
-            <td>tbd</td>
+            <td>Rental</td>
             <td>Alex, Leona, Teresa</td>
             <td>4</td>
           </tr>
           <tr>
             <td>Cyril</td>
-            <td>tbd</td>
+            <td>Rental</td>
             <td>Joyce, Tina, Carlton</td>
             <td>4</td>
           </tr>
           <tr>
             <td>Jeff</td>
-            <td>tbd</td>
+            <td>Rental</td>
             <td>Wendy, Sabrina, Eli</td>
             <td>4</td>
           </tr>
