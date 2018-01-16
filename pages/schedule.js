@@ -22,7 +22,17 @@ export default props => (
         </tr>
         <tr>
           <td>11:30 AM</td>
-          <td>Flamingo Garden - Self Tour &amp; Photos</td>
+          <td>
+            Flamingo Garden - Guest Self Tour &amp; Photos<br />
+            Tina arrives before guests
+          </td>
+        </tr>
+        <tr>
+          <td>11:40 AM</td>
+          <td>
+            Chapel - Guest seat themselves in outside chapel garden venue<br />
+            Carlton arrives, speaks to chapel, then joins guests.
+          </td>
         </tr>
         <tr>
           <td>12:00 PM</td>

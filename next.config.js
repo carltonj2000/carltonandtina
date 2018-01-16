@@ -7,7 +7,8 @@ module.exports = {
       "/seating": { page: "/seating" },
       "/cars": { page: "/cars" },
       "/support": { page: "/support" },
-      "/home": { page: "/home" }
+      "/home": { page: "/home" },
+      "/extra": { page: "/extra" }
     };
   }
 };

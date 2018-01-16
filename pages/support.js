@@ -14,6 +14,10 @@ export default props => (
             <th>Support</th>
           </tr>
           <tr>
+            <td>All</td>
+            <td>The marriage is outside so please bring a light Jacket</td>
+          </tr>
+          <tr>
             <td>Jeffrey</td>
             <td>Rings, Marriage Licence, Best Man</td>
           </tr>
