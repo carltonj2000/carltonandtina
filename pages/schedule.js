@@ -5,9 +5,9 @@ export default props => (
   <Layout active="schedule">
     <div className="contianer">
       <div className="date">
-        <h1>
+        <h3>
           January 18<sup>th</sup>, 2018
-        </h1>
+        </h3>
       </div>
       <table>
         <tr>

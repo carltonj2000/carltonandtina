@@ -8,6 +8,7 @@ module.exports = {
       "/cars": { page: "/cars" },
       "/support": { page: "/support" },
       "/home": { page: "/home" },
+      "/photolist": { page: "/photolist" },
       "/extra": { page: "/extra" }
     };
   }
