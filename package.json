@@ -12,7 +12,8 @@
     "imgOpt": "node scripts/imgOptimize.js",
     "rsync":
       "rsync -avzL out/ carltonjoseph.com:/mnt/volume-sfo2-01/cj/tinaandcarltondotcom/",
-    "toserver": "run-s build export rsync"
+    "toserver": "run-s build export rsync",
+    "finditem": "node scripts/find.js"
   },
   "keywords": [],
   "author": "Carlton Joseph",
