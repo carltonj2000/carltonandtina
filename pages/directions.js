@@ -1,4 +1,7 @@
 import Layout from "../components/Layout.js";
+import { config } from "../utils/config.js";
+
+const { basedir } = config;
 
 export default () => (
   <Layout active="directions">
@@ -27,7 +30,7 @@ export default () => (
           </a>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25788.406015020326!2d-115.1916576387695!3d36.104437837746126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c43bca8fd755%3A0x645b9d40c4e2ea75!2sFlamingo+Las+Vegas!5e0!3m2!1sen!2sus!4v1513910062482" />
           <h4>Parking And Walking</h4>
-          <img src="/static/flamingo.png" />
+          <img src={`${basedir}static/flamingo.png`} />
         </div>
         <div className="dinner">
           <h3>
@@ -46,7 +49,7 @@ export default () => (
           </a>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1139.7223276861898!2d-114.93109144199455!3d36.1027125108925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8d7931e9dd00f%3A0x6b2ae084b961c74c!2sMimi+%26+Coco+Bistro!5e0!3m2!1sen!2sus!4v1513910930321" />
           <h4>Parking And Walking</h4>
-          <img src="/static/mimis.png" />
+          <img src={`${basedir}static/mimis.png`} />
         </div>
       </div>
     </div>

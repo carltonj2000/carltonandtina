@@ -1,3 +1,7 @@
+import { config } from "../utils/config.js";
+
+const { basedir } = config;
+
 export default props => {
   if (!props.show) return null;
   return (
@@ -33,7 +37,7 @@ export default props => {
           left: 5vw;
           width: 85vw;
           height: 85vh;
-          background: url("/static/optimized/${props.img.name}");
+          background: url("${basedir}static/optimized/${props.img.name}");
           background-repeat: no-repeat;
           background-position: center center;
           background-size: cover;

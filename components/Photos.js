@@ -1,4 +1,8 @@
-const imageDir = "/static/optimized/";
+import { config } from "../utils/config.js";
+
+const { basedir } = config;
+const imageDir = `${basedir}static/optimized/`;
+
 export default ({ photoModalOpen, images }) => (
   <div className="container">
     {images.map(img => (

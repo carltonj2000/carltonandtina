@@ -2,6 +2,9 @@ import Link from "next/link";
 
 import Navigation from "./Navigation";
 import Message from "./Message";
+import { config } from "../utils/config.js";
+
+const { basedir } = config;
 
 export default ({ active }) => (
   <div>
@@ -12,7 +15,7 @@ export default ({ active }) => (
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background: url("/static/optimized/IMG_9468-crop.JPG");
+        background: url("${basedir}static/optimized/IMG_9468-crop.JPG");
         height: 400px;
         background-repeat: no-repeat;
         background-position: center center;

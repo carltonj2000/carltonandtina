@@ -1,8 +1,11 @@
+import { config } from "../utils/config.js";
+
+const { basedir } = config;
 export default () => (
   <div>
-    <img src="../static/footer/optimized/IMG_0976.JPG" alt="rings 1" />
+    <img src={`${basedir}static/footer/optimized/IMG_0976.JPG`} alt="rings 1" />
     <p>Copyright &copy; Carlton &amp; Tina Joseph</p>
-    <img src="../static/footer/optimized/IMG_0980.JPG" alt="rings 2" />
+    <img src={`${basedir}static/footer/optimized/IMG_0980.JPG`} alt="rings 2" />
     <style jsx>{`
       div {
         display: flex;
